@@ -7,32 +7,40 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
     <title>security services</title>
   </head>
   <body>
-  <div class="container-fluid"  style="background-color: rgba(5, 12, 12, 0.007)">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height:50%;background-color: rgb(202, 49, 49)">
-          <nav class="navbar sticky-top navbar-light bg-light"> 
-        <a class="navbar-brand" href="#"><img src="images/logo.png" style="height:66px"></a>
+    <div class="spinner-grow" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    
+    <!--------------------------
+      
+      navigation bar start
+    
+    -------------------------->   
+    
+    <div class="container-fluid"  style="background-color: rgba(5, 12, 12, 0.007)">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light " style="background-color: rgb(202, 49, 49);margin-bottom: -8px">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" style="height:66px;padding-left:75px;"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-         <div style="background-color:rgba(219, 213, 213, 0.856)">
-          <div class="collapse navbar-collapse" id="navbarNavDropdown" style="padding-left:53px;font-size: 22px">
-            <ul class="navbar-nav">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown" style="padding-left:33px;font-size: 20px;">
+            <ul class="navbar-nav" >
               <li class="nav-item active" >
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" style="padding-left:44px">about us!</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="#" style="padding-left:44px" ><i class="fas fa-users"></i> about us!</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" style="padding-left:44px">career</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="#" style="padding-left:44px"><i style="font-size:24px" class="fa">&#xf183;</i> career</a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown active">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" style="padding-left:44px" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  services
+                  <i class="fas fa-clipboard-list"></i>                 services
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <a class="dropdown-item" href="#">gaurding services</a>
@@ -41,24 +49,37 @@
                 </div>
                 
               </li>
-             
-              <li class="nav-item dropdown">
+              <li class="nav-item active">
+                <a class="nav-link" href="#" style="padding-left:44px"><i style="font-size:24px" class="fa">&#xf2b5;</i>&nbsp;clients</a>
+              </li>
+              <li class="nav-item dropdown active">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" style="padding-left:44px;padding-right: 44px;"role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  contact
+                  <i style='font-size:24px' class='far'>&#xf2bb;</i> contact
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">seecurity services</br>mangalagiri</br>+91 9959695016</br><a href="#">know more!</a></a>
+                  <a class="dropdown-item" href="#">seecurity services</br>mangalagiri</br>+91 9959695016</br><a href="#">&nbsp;know more!</a></a>
                  
                 </div>
               </li>
+              <li class="nav-item active" style="color:blue">
+                <a href="tel:+919959695016" class="nav-link" style="padding-left:14px"  ><i style='font-size:24px' class='fas'>&#xf095;</i>&nbsp;+91 9959695016</a>
+              </li>
   
             </ul>
+            </div>
   </div>
           
         </nav>
-        </nav>
       </div>
     </div>
+  
+<!--------------------
+  
+  slide show start
+
+------------------------>
+    
+    <div style="margin-top: 98px">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -67,13 +88,13 @@
                 </ol>
                 <div class="carousel-inner" style="padding-top:2px;">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/1.jpg" width="auto" height="544px" alt="First slide">
+                    <img class="d-block w-100" class="img-fluid" src="images/1.jpg" width="100% \9" height="544px" alt="First slide">
+                  </div>
+                  <div class="carousel-item" >
+                    <img class="d-block w-100" src="images/2.jpg" class="img-fluid" width="100% \9" height="544px" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/2.jpg" width="auto" height="544px" alt="Second slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="images/3.jpg" width="auto" height="544px" lt="Third slide">
+                    <img class="d-block w-100" src="images/3.jpg" class="img-fluid" width="100% \9" height="544px" lt="Third slide">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -86,32 +107,173 @@
                 </a>
               </div>
               </div>
-              <div class="container-fluid" style="padding-top:15px;margin-left:44px;">
-                  <div class="row">
-              <div class="card" style="width: 22rem; margin-left: 77px;" class="col-sm">
-                    <img class="card-img-top" src="images/1.jpg" alt="Card image cap">
-                    <div class="card-body" style="background-color:">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
+              
+   <!-----------------------------
+     
+    cards start
+   
+   -------------------------------->           
+              
+  <div class="container-fluid" style="padding-top:15px;margin-left:44px;">
+            <div class="row">
+        <div class="card" style="width: 22rem; margin-left: 77px;" class="col-sm">
+              <img class="card-img-top" src="images/1.jpg" alt="Card image cap">
+              <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <div class="card" style="width: 22rem; margin-left: 99px;"class="col-sm" >
+                  <img class="card-img-top" src="images/2.jpg" alt="Card image cap">
+                  <div class="card-body" >
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   </div>
-                  <div class="card" style="width: 22rem; margin-left: 99px;"class="col-sm" >
-                        <img class="card-img-top" src="images/2.jpg" alt="Card image cap">
-                        <div class="card-body" style="background-color: darkgray;">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
+              </div>
+                <div class="card" style="width: 22rem; margin-left: 99px;" class="col-sm">
+                      <img class="card-img-top" src="images/3.jpg"  alt="Card image cap">
+                      <div class="card-body" >
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
                     </div>
-                      <div class="card" style="width: 22rem; margin-left: 99px;" class="col-sm">
-                            <img class="card-img-top" src="images/3.jpg"  alt="Card image cap">
-                            <div class="card-body" style="background-color: darkgray;">
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                          </div>
+</div>
+</div>
+</div>
+<div class="container-fluid" style="padding-top:9px;">
+   <div class="jumbotron">
+    <h1 class="display-4">looking for a security services for your organization?</h1>
+    <p class="lead">then,you are on the right place..!</p>
+    <hr class="my-4">
+    <p>our security services are faithful and impressive.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">contact us!</a>
+  </div>
+</div>
+<div class="container-fluid" style="padding-top:9px;">
+    <div class="jumbotron">
+     <h1 class="display-4">looking for a job in securities?</h1>
+     <p class="lead">then,you are on the right place..!</p>
+     <hr class="my-4">
+     <p>our security services are faithful and impressive.</p>
+     <a class="btn btn-primary btn-lg" href="#" role="button">submit your resume..!</a>
    </div>
-   </div>
-              <!-- Optional JavaScript -->
+ </div>
+<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!---------------------
+  
+  footer
+
+  ---------------->
+
+<style type="text/css">
+			body {
+				margin:0;
+				padding:0;
+				font-family: Sans-Serif;
+				line-height: 1.5em;
+			}
+			
+			
+			main {
+				padding-bottom: 10010px;
+				margin-bottom: -10000px;
+				float: left;
+				width: 100%;
+			}
+			
+			#nav {
+				padding-bottom: 10010px;
+				margin-bottom: -10000px;
+        				float: left;
+                padding-top: 15px;
+				width: 222px;
+				margin-left: -100%;
+				background: rgb(155, 148, 148);
+			}
+			
+			#footer {
+				clear: left;
+				width: 100%;
+				background: rgba(66, 65, 65, 0.76);
+				text-align: center;
+				padding: 9px 0;
+			}
+	
+			#wrapper {
+				overflow: hidden;
+			}
+						
+			#content {
+				margin-left: 230px; /* Same as 'nav' width */
+			}
+			
+			.innertube {
+				margin: 15px; /* Padding for content */
+				margin-top: 0;
+        color:black;
+			}
+		
+			p {
+				color: rgb(165, 161, 161);
+			}
+	
+			nav ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+			
+			nav ul a {
+				color:blue;
+				text-decoration: none;
+			}
+		
+</style>
+		
+	
+	<div id="wrapper">
+		
+			<main>
+				<div id="content">
+					<div class="innertube">
+            <h1>security services</h1>
+           <h3> </h3>
+					</div>
+				</div>
+			</main>
+			
+			<nav id="nav">
+				<div class="innertube">
+          <div style="font-size:16px">
+          <h5>HOME</h5></br>
+          <h5>SERVICES</h5>
+          <ul>
+						<li><a href="#">gaurding services</a></li>
+						<li><a href="#">facility services</a></li>
+						<li><a href="#">financial activities</a></li>
+					</ul></br>
+          <h5>CAREER</h5>
+					<ul>
+						<li><a href="#">upload a resume!</a></li>
+						<li><a href="#"></a></li>
+					</ul></br>
+					<h5>CONTACT</h5>
+					<ul>
+						<li><a href="#">enquiry form!</a></li>
+						<li><a href="#">meet us!</a></li>
+					</ul>
+        </div>
+        </div>
+			</nav>
+		
+		</div>
+		
+		<footer id="footer">
+			<div class="innertube">
+				<p style="text-align:right;color:black;" font-color="black">Design by: team websmith's</p>
+			</div>
+		</footer>
   </body>
 </html>
